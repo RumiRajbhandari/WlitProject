@@ -32,6 +32,7 @@ public class Welcome extends AppCompatActivity {
             public void onAnimationEnd(Animation animation) {
                 finish();
                 startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                Log.d("Rumi","hello world");
 
 
             }
